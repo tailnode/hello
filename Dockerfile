@@ -1,4 +1,4 @@
-FROM scratch
+FROM busybox
 COPY hello /hello
 ENV HELLO_VERSION 2.0
 EXPOSE 8080
